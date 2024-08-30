@@ -1,0 +1,128 @@
+:root{
+    --bg: ;
+    --white: #fff;
+    --white-dark: #dbe7f3;
+    --text-color: #333;
+    --dark: #0F172B;
+    --light-blue: #0d6efd;
+    --dark-blue: #0a58ca;
+    --red: #ef233c;
+    --green: #00E77F;
+
+    /* border */
+    --border-image: 1px solid #;
+
+    /* box-shadow */
+    --box-shadow: 0 7px 25px rgba(0, 0, 0, 0.3);
+
+    /* transition */
+    --text-transition: all 0.3s ease;
+}
+
+
+
+/*******************************/
+/********* CONTACT Section *********/
+/*******************************/
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.contact .contact-information {
+    min-height: 150px;
+    margin: 0 0 30px 0;
+    padding: 30px 15px 0 15px;
+    background: rgba(0, 0, 0, .04);
+}
+
+.contact .contact-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact .contact-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-blue);
+    border-radius: 50px;
+}
+
+.contact .contact-icon i {
+    font-size: 18px;
+    color: var(--white-dark);
+}
+
+.contact .contact-text {
+    position: relative;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.contact .contact-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.contact .contact-text p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+.contact .contact-social a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+.contact .contact-social a:nth-child(1):hover {
+    color: var(--green);
+}
+.contact .contact-social a:nth-child(2):hover {
+    color: var(--red);
+}
+.contact .contact-social a:nth-child(3):hover {
+    color: var(--dark-blue);
+}
+.contact .contact-social a:nth-child(4):hover {
+    color: var(--red);
+}
+
+.contact .contact-form iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.contact .contact-form input {
+    padding: 15px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact .contact-form textarea {
+    height: 150px;
+    padding: 8px 15px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
