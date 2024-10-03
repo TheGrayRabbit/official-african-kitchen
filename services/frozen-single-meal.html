@@ -32,84 +32,91 @@
 
         <!-- ================= NAVIGATION Starts =============== -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid header-navbar" id="header-navbar">
-          <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        <nav class="navbar navbar-expand-lg bg">
+            <div class="container-fluid header-navbar" id="header-navbar">
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" id="home" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../about.html" id="about">About</a>
-              </li>
-
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link fw-bold text-capitalize dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../services/personalized-meal.html">Personalized Meals</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../services/event-catering.html">Event catering</a></li>
-
-                  <li><a class="dropdown-item text-capitalize active fw-bold" href="../services/frozen-single-meal.html" aria-current="page">Frozen single meals</a></li>
-                  </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Others
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/register.html">Register as a Distributor</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/feedback.html">Feedback</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/faq.html">FAQ</a></li>
-                  </ul>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../contact.html">Contact</a>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../quote.html">Get a quote</a>
-              </li>
-
-              </ul>
+            <div class="collapse white-tag navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" id="home" href="../index.html">Home</a>
+                </li>
 
 
 
-              <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary fw-bold text-capitalize" type="submit">Order</button>
-              </form>
+                <li class="nav-item white-tag  dropdown">
+                    <a class="nav-link fw-bold active text-capitalize dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="personalized-meal.html">Personalized Meals</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="event-catering.html">Event catering</a></li>
+
+                    <li><a class="dropdown-item text-capitalize active fw-bold" href="frozen-single-meal.html" aria-current="page">Frozen single meals</a></li>
+                    </ul>
+                </li>
 
 
-              <div class="cart">
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../about.html" id="about">About</a>
+                </li>
 
-                  <div class="cart-holder">
-                      <div class="icon-cart">
-                          <i class="fa fa-shopping-cart" onclick="window.location.href='../cart.html';"></i>
-                          <span>0</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-      </nav>
 
-  <!-- ================== NAVIGATION Ends =============== -->
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../quote.html">Get a quote</a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More <i class="fa fa-plus"></i>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/register.html">Register as a Distributor</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/feedback.html">Feedback</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+
+
+                </ul>
+
+
+
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary fw-bold text-capitalize" type="submit">Order</button>
+                </form>
+
+
+                <div class="cart">
+
+                    <div class="cart-holder">
+                        <div class="icon-cart">
+                            <i class="fa fa-shopping-cart" onclick="window.location.href='../cart.html';"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+    <!-- ================== NAVIGATION Ends =============== -->
+
 
 
 
@@ -133,8 +140,20 @@
         </div>
         <!-- PAGE HEADER End -->
 
+
+                <!-- =============== SOCIAL ICONS ============== -->
+
+                <div class="side-socials">
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+
                 <!-- ================ SERVICE Start =============== -->
-                <div class="container-xxl py-5">
+                <div class="container-xxl py-2">
                   <div class="container">
                       <div class="row g-4">
                           <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -179,11 +198,295 @@
               <!-- ================ SERVICE End ============== -->
 
 
+        <!-- FROZEN SINGLE MEALS Starts -->
+
+        <div class="container packages py-5">
+
+            <div class="row d-flex justify-content-evenly gap-0">
+                <h1 class="text-center fw-bold py-5">Package 1</h1>
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.1s">
+                    <h3 class="text-center">CANAPES</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Meat pie</a></li>
+
+                        <li><a href="">Sumptuous puff puff (Plain |Milky way | Drizzles)
+                        </a></li>
+
+                        <li><a href="">Beef with sweet peppers on a skewer</a></li>
+
+                        <li><a href="">Peppered pomo</a></li>
+
+                        <li><a href="">Tempura prawns (Premium)</a></li>
+
+                        <li><a href="">Spicy chicken wings</a></li>
+
+                        <li><a href="">Spring roll</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+                </div>
+
+                </div>
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.3s">
+                    <h3 class="text-center">CANAPES</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+
+                        <li><a href="">Samosa</a></li>
+
+                        <li><a href="">Plantain fries with mini stewed beans</a></li>
+
+                        <li><a href="">Mini Akara burger (Premium)</a></li>
+
+                        <li><a href="">Garlic king prawns (Premium)</a></li>
+
+                        <li><a href="">Plantain & peppered gizzard with sweet peppers on a skewer</a></li>
+
+                        <li><a href="">Salt and pepper prawns (Premium)</a></li>
+
+                        <li><a href="">Kelewele (Ghanaian spicy plantain)</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.5s">
+                    <h3 class="text-center">CANAPES</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Kosua Ne Meko (Eggs with pepper - Ghanaian)</a></li>
+
+                        <li><a href="">Goat meat pepper soup (Premium)</a></li>
+
+                        <li><a href="">Assorted meat pepper soup</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+            <div class="row d-flex justify-content-evenly gap-0">
+                <h1 class="text-center fw-bold py-5">Package 2</h1>
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.1s">
+                    <h3 class="text-center">SOUPS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Meat pie</a></li>
+
+                        <li><a href="">Sumptuous puff puff (Plain |Milky way | Drizzles)
+                        </a></li>
+
+                        <li><a href="">Beef with sweet peppers on a skewer</a></li>
+
+                        <li><a href="">Peppered pomo</a></li>
+
+                        <li><a href="">Tempura prawns (Premium)</a></li>
+
+                        <li><a href="">Spicy chicken wings</a></li>
+
+                        <li><a href="">Spring roll</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.3s">
+                    <h3 class="text-center">SOUPS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Meat pie</a></li>
+
+                        <li><a href="">Sumptuous puff puff (Plain |Milky way | Drizzles)
+                        </a></li>
+
+                        <li><a href="">Beef with sweet peppers on a skewer</a></li>
+
+                        <li><a href="">Peppered pomo</a></li>
+
+                        <li><a href="">Tempura prawns (Premium)</a></li>
+
+                        <li><a href="">Spicy chicken wings</a></li>
+
+                        <li><a href="">Spring roll</a></li>
+
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.5s">
+                    <h3 class="text-center">SOUPS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Meat pie</a></li>
+
+                        <li><a href="">Sumptuous puff puff (Plain |Milky way | Drizzles)
+                        </a></li>
+
+                        <li><a href="">Beef with sweet peppers on a skewer</a></li>
+
+                        <li><a href="">Peppered pomo</a></li>
+
+                        <li><a href="">Tempura prawns (Premium)</a></li>
+
+                        <li><a href="">Spicy chicken wings</a></li>
+
+                        <li><a href="">Spring roll</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="row d-flex justify-content-evenly gap-0">
+                <h1 class="text-center fw-bold py-5">Package 3</h1>
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.1s">
+                    <h3 class="text-center">MAINS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Party jollof rice</a></li>
+
+                        <li><a href="">Fried rice (Nigerian style)</a></li>
+
+                        <li><a href="">Prawn fried rice (Premium)</a></li>
+
+                        <li><a href="">Special fried rice</a></li>
+
+                        <li><a href="">Special coconut fried rice</a></li>
+
+                        <li><a href="">Waakye & shito</a></li>
+
+                        <li><a href="">White rice served with potato leaf soup</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.3s">
+                    <h3 class="text-center">MAINS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">White rice served with cassava leaf soup</a></li>
+
+                        <li><a href="">Asun pasta (Spaghetti) (Premium)</a></li>
+
+                        <li><a href="">White rice with ayamase/ofada sauce (Green designer stew/red designer stew)</a></li>
+
+                        <li><a href="">Asaro (Yam pottage)</a></li>
+
+                        <li><a href="">Boiled yam served with vegetable sauce (Premium)</a></li>
+
+                        <li><a href="">Peppered/stewed assorted meat</a></li>
+
+                        <li><a href="">Peppered/stewed beef</a></li>
+
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-xl-4 wow fadeInUp package position-relative" data-wow-delay="0.5s">
+                    <h3 class="text-center">MAINS</h3>
+                    <div class="price-range text-center fw-bold fs-1">$15 - $250</div>
+
+                    <ul>
+                        <li><a href="">Peppered/stewed chicken</a></li>
+
+                        <li><a href="">Grilled & peppered chicken thigh</a></li>
+
+                        <li><a href="">Grilled drumstick</a></li>
+
+                        <li><a href="">Peppered/stewed Hake fish</a></li>
+
+                        <li><a href="">Peppered/stewed Red bream</a></li>
+
+                    </ul>
+
+                    <div class="stick-here">
+                        <a class="btn-primary py-3 px-4 rounded-2 d-flex align-items-center justify-content-center"> Add To Cart </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
 
 
         <!-- FROZEN SINGLE MEALS Starts -->
 
-
+<!--
         <div class="frozen">
 
           <div class="image p-3">
@@ -210,69 +513,7 @@
             <img src="../img/menu/bread-barrel.jpg" style="width: 100%; max-height: 500px;">
           </div>
         </div>
-
-
-
-
-
-        <!-- FROZEN SINGLE MEALS Ends -->
-
-
-
-
-
-
-        <!-- <div class="container overflow-hidden frozen-container">
-          <div class="row gx-5">
-            <div class="col">
-             <div class="p-3 fw-bold fs-2">Custom column padding</div>
-
-             <p class="bg-light border p-3" style="box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde maiores pariatur saepe temporibus nostrum provident molestias autem asperiores? Quas fugit sed officiis neque vitae culpa, ea magnam, reprehenderit, tenetur sunt ratione eos amet. Reprehenderit incidunt nesciunt cumque, omnis voluptate recusandae optio libero aperiam magnam hic iusto nulla, sint dolor itaque.
-  <br>
-  <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde quod suscipit aperiam. Perferendis, blanditiis cumque et iusto obcaecati quo fugiat quia eaque cum, inventore, modi aperiam est natus error culpa illum odit quos aspernatur doloribus dignissimos! Sapiente sint dolorem molestias ea accusamus deserunt officiis rerum! Officia, est vel. Dolores?
-             </p>
-            </div>
-
-
-            <div class="col">
-              <div class="p-3">
-                <img src="../img/menu/bread-barrel.jpg" style="width: 100%; max-height: 500px;">
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="container my-5 overflow-hidden">
-          <div class="row gx-5">
-
-
-            <div class="col">
-              <div class="p-3">
-                <img src="../img/menu/bread-barrel.jpg" style="width: 100%; max-height: 500px;">
-              </div>
-            </div>
-
-
-            <div class="col">
-             <div class="p-3 fw-bold fs-2">Custom column padding</div>
-
-             <p class="bg-light border p-3" style="box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde maiores pariatur saepe temporibus nostrum provident molestias autem asperiores? Quas fugit sed officiis neque vitae culpa, ea magnam, reprehenderit, tenetur sunt ratione eos amet. Reprehenderit incidunt nesciunt cumque, omnis voluptate recusandae optio libero aperiam magnam hic iusto nulla, sint dolor itaque.
-  <br>
-  <br>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio in minus inventore odio. Accusamus voluptate at molestiae provident reprehenderit temporibus nisi repudiandae? Vel fugiat animi, et possimus rem tempora tempore facere omnis est voluptas? Odit quo, ratione eligendi corrupti repudiandae facilis cupiditate consequatur eius laboriosam eaque. Sequi quia maxime iure!
-             </p>
-            </div>
-
-
-
-          </div>
-        </div> -->
-
-
-
+ -->
 
 
 
@@ -285,9 +526,7 @@
 
                       <a class="btn btn-link" href="../about.html">About Us</a>
 
-                      <a class="btn btn-link" href="../product/gallery.html">Gallery</a>
-
-                      <a class="btn btn-link" href="../services/booking.html">Bookings</a>
+                      <a class="btn btn-link" href="event-catering.html">Events and Caterings</a>
 
                       <a class="btn btn-link" href="../others/feedback.html">Feedback</a>
 
@@ -343,15 +582,15 @@
               <div class="copyright">
                   <div class="row">
                       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                          &copy; <a class="license" href="#">Powered by Fay's African Catering Services Ltd.</a> All Rights Reserved.
+                          &copy; <script> document.write(new Date().getFullYear());</script> <a class="license" href="#">Powered by Fay's African Catering Services Ltd.</a> All Rights Reserved.
             <br><br>
                       </div>
                       <div class="col-md-6 text-center text-md-end">
                           <div class="footer-menu">
                               <a href="../index.html">Home</a>
-                              <a href="../index.html">Cookies</a>
+                              <a href="../others/register.html">Register</a>
                               <a href="../contact.html">Contact</a>
-                              <a href="../faq.html">FAQs</a>
+                              <a href="../others/faq.html">FAQs</a>
                           </div>
                       </div>
                   </div>
@@ -384,6 +623,7 @@
 
      <!-- Javascript Template -->
      <script src="../js/script.js"></script>
+     <script src="../js/scroll.js"></script>
 
 </body>
 </html>

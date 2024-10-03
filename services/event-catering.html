@@ -30,84 +30,91 @@
 <body>
         <!-- ================= NAVIGATION Starts =============== -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid header-navbar" id="header-navbar">
-          <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        <nav class="navbar navbar-expand-lg bg">
+            <div class="container-fluid header-navbar" id="header-navbar">
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" id="home" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../about.html" id="about">About</a>
-              </li>
-
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link fw-bold active text-capitalize dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../services/personalized-meal.html">Personalized Meals</a></li>
-
-                  <li><a class="dropdown-item text-capitalize active fw-bold" href="../services/event-catering.html" aria-current="page">Event catering</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../services/frozen-single-meal.html">Frozen single meals</a></li>
-                  </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Others
-                  </a>
-
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/register.html">Register as a Distributor</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/feedback.html">Feedback</a></li>
-
-                  <li><a class="dropdown-item text-capitalize fw-bold" href="../others/faq.html">FAQ</a></li>
-                  </ul>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../contact.html">Contact</a>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link text-capitalize fw-bold" href="../quote.html">Get a quote</a>
-              </li>
-
-              </ul>
+            <div class="collapse white-tag navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" id="home" href="../index.html">Home</a>
+                </li>
 
 
 
-              <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary fw-bold text-capitalize" type="submit">Order</button>
-              </form>
+                <li class="nav-item white-tag  dropdown">
+                    <a class="nav-link active fw-bold text-capitalize dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="personalized-meal.html">Personalized Meals</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold active" href="event-catering.html" aria-current="page">Event catering</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="frozen-single-meal.html">Frozen single meals</a></li>
+                    </ul>
+                </li>
 
 
-              <div class="cart">
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../about.html" id="about">About</a>
+                </li>
 
-                  <div class="cart-holder">
-                      <div class="icon-cart">
-                          <i class="fa fa-shopping-cart" onclick="window.location.href='../cart.html';"></i>
-                          <span>0</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-      </nav>
 
-  <!-- ================== NAVIGATION Ends =============== -->
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize fw-bold" href="../quote.html">Get a quote</a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More <i class="fa fa-plus"></i>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/register.html">Register as a Distributor</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/feedback.html">Feedback</a></li>
+
+                    <li><a class="dropdown-item text-capitalize fw-bold" href="../others/faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+
+
+                </ul>
+
+
+
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary fw-bold text-capitalize" type="submit">Order</button>
+                </form>
+
+
+                <div class="cart">
+
+                    <div class="cart-holder">
+                        <div class="icon-cart">
+                            <i class="fa fa-shopping-cart" onclick="window.location.href='../cart.html';"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+    <!-- ================== NAVIGATION Ends =============== -->
+
 
 
 
@@ -132,6 +139,19 @@
             </div>
         </div>
         <!-- PAGE HEADER End -->
+
+
+
+                <!-- =============== SOCIAL ICONS ============== -->
+
+                <div class="side-socials">
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
 
 
                 <!-- ================ SERVICE Start =============== -->
@@ -181,10 +201,57 @@
 
 
 
+                <!-- ================ EVENT Start ================ -->
+
+                <div class="event-container">
+                    <div class="first-row">
+
+                        <div class="row py-3">
+                            <div class="box">
+                                <img src="../img/gallery/g-1.jpg" alt="">
+                                <h5 class="fw-bold py-2">Event Catering</h5>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolores molestiae aut veritatis nesciunt cumque magnam amet doloribus ipsa maiores, ratione laborum quo natus consequatur sapiente odio, reprehenderit iste perspiciatis harum a repellat voluptates? Sed, consequatur mollitia quasi officia libero ad assumenda voluptatem voluptas, dolor quisquam amet ut nisi corporis?</p>
+
+                                <a class="btn btn-primary py-3 px-4 text-capitalize" href="#">Make your booking</a>
+                            </div>
+                        </div>
+
+
+                        <div class="row py-3">
+                            <div class="box">
+                                <img src="../img/gallery/g-1.jpg" alt="">
+                                <h5 class="fw-bold py-2">Equipment Hire</h5>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, eaque vel. Alias, perferendis odit iste nostrum neque ducimus nulla ullam voluptatem, quae, eos repudiandae explicabo nesciunt esse est. Maxime necessitatibus ad esse nihil nostrum dolore reprehenderit dignissimos tenetur eius placeat cupiditate eaque tempora magnam porro blanditiis harum.
+                                </p>
+
+                                <a class="btn btn-primary py-3 px-4 text-capitalize" href="#">Make your booking</a>
+                            </div>
+                        </div>
 
 
 
+                    </div>
 
+
+                    <div class="second-row py-5">
+
+                        <div class="row py-3">
+                            <div class="box">
+                                <img src="../img/gallery/g-1.jpg" alt="">
+                                <h5 class="fw-bold py-2">Equipment Purchase</h5>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, eaque vel. Alias, perferendis odit iste nostrum neque ducimus nulla ullam voluptatem, quae, eos repudiandae explicabo nesciunt esse est. Maxime necessitatibus ad esse nihil nostrum dolore reprehenderit dignissimos tenetur eius placeat cupiditate eaque tempora magnam porro blanditiis harum.
+                                </p>
+
+                                <a class="btn btn-primary py-3 px-4 text-capitalize" href="#">Make your booking</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================ EVENT End ================ -->
 
 
 
@@ -197,9 +264,7 @@
 
                       <a class="btn btn-link" href="../about.html">About Us</a>
 
-                      <a class="btn btn-link" href="../product/gallery.html">Gallery</a>
-
-                      <a class="btn btn-link" href="../services/booking.html">Bookings</a>
+                      <a class="btn btn-link" href="event-catering.html">Events and Caterings</a>
 
                       <a class="btn btn-link" href="../others/feedback.html">Feedback</a>
 
@@ -255,15 +320,15 @@
               <div class="copyright">
                   <div class="row">
                       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                          &copy; <a class="license" href="#">Powered by Fay's African Catering Services Ltd.</a> All Rights Reserved.
+                          &copy; <script> document.write(new Date().getFullYear());</script> <a class="license" href="#">Powered by Fay's African Catering Services Ltd.</a> All Rights Reserved.
             <br><br>
                       </div>
                       <div class="col-md-6 text-center text-md-end">
                           <div class="footer-menu">
                               <a href="../index.html">Home</a>
-                              <a href="../index.html">Cookies</a>
+                              <a href="../others/register.html">Register</a>
                               <a href="../contact.html">Contact</a>
-                              <a href="../faq.html">FAQs</a>
+                              <a href="../others/faq.html">FAQs</a>
                           </div>
                       </div>
                   </div>
@@ -295,6 +360,7 @@
 
      <!-- Javascript Template -->
      <script src="../js/script.js"></script>
+     <script src="../js/scroll.js"></script>
 
 </body>
 </html>
