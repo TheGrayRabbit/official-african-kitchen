@@ -1,6 +1,25 @@
 (function ($) {
     "use strict";
 
+    // window.addEventListener('scroll',() =>{
+    //     document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+    // })
+
+
+
+//     window.addEventListener('scroll',() =>{
+//    var icons = document.querySelector('social-icons', window.scrollY > 100)
+//         if (window.scrollY > 100){
+//             icons.classList.add('social-icons');
+//         }
+//     });
+
+
+//     window.addEventListener('scroll',() =>{
+//    var icons = document.querySelector('social-icons', window.scrollY > 1000)
+
+//     });
+
 
     // Initiate the wowjs
     new WOW().init();
