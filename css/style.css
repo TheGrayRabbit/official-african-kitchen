@@ -18,8 +18,70 @@
     /* transition */
     --text-transition: all 0.3s ease;
 }
+.bg{
+    background: var(--white);
+}
+.fa-bars{
+    position: relative;
+    top: 0.3rem;
+    font-size: 1rem;
+    color: var(--white-dark);
+    text-align: center;
+}
+/* .text-scroll{
+    color: var(--dark);
+    background-color: var(--white-dark);
+} */
+/* .header-navbar{
+    background-color: #fff;
+} */
+/* nav{
+    background: transparent;
+} */
+
+.window-scroll{
+    background: var(--dark);
+    /* color: white; */
+    transition: ease .1s;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.white-tag{
+    color: white;
+}
 
 
+.side-socials{
+    position: relative;
+}
+.side-socials .social-icons{
+    position: fixed;
+    bottom: 23.4%;
+    left: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.social-icons a i{
+    font-size: 1.5rem;
+}
+.social-icons a{
+    color: rgb(233, 183, 90);
+}
+.side-socials .social-icons a:nth-child(1):hover{
+    color: var(--green);
+    transition: .2s;
+}
+.side-socials .social-icons a:nth-child(2):hover{
+    color: var(--dark-blue);
+    transition: .2s;
+}
+.side-socials .social-icons a:nth-child(3):hover
+{
+    color: var(--red);
+    transition: .2s;
+}
 
 *{
     margin: 0;
@@ -69,7 +131,7 @@ a{
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/bg-hero.jpg) center center no-repeat;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .9)), url(../img/bg-hero.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -92,10 +154,10 @@ nav.navbar{
     gap: 2rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
-    color: var(--dark-blue) !important;
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    color: var(--red) !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -105,7 +167,7 @@ nav.navbar{
 
 /** ============= product cart section ===============  */
 .cart{
-    margin-left: 2rem;
+    margin-left: 5rem;
     cursor: pointer;
 }
 .cart-holder{
@@ -118,8 +180,11 @@ nav.navbar{
     position: relative;
 }
 .fa-shopping-cart{
+    color: rgb(13, 110, 253);
     /* font-size: 1.277rem; or font-size: 23px */
     font-size: 23px;
+    position: relative;
+    left: -1rem;
 }
 .cart-holder .icon-cart span{
     display: flex;
@@ -132,11 +197,18 @@ nav.navbar{
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    right: -15px;
+    right: 0px;
 }
 @media (max-width: 990px) {
     .cart{
         margin-left: 0rem;
+    }
+    .fa-shopping-cart{
+        position: relative;
+        left: 0rem;
+    }
+    .cart-holder .icon-cart span{
+        right: -15px;
     }
 }
 
@@ -156,6 +228,7 @@ nav.navbar{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1000;
 }
 
 .hero-header img {

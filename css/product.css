@@ -1,3 +1,28 @@
+:root{
+  --bg: ;
+  --white: #fff;
+  --white-dark: #dbe7f3;
+  --text-color: #333;
+  --dark: #0F172B;
+  --light-blue: #0d6efd;
+  --dark-blue: #0a58ca;
+  --red: #ef233c;
+  --green: #00E77F;
+
+  /* border */
+  --border-image: 1px solid #;
+
+  /* box-shadow */
+  --box-shadow: 0 7px 25px rgba(0, 0, 0, 0.3);
+
+  /* transition */
+  --text-transition: all 0.3s ease;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
   .frozen{
@@ -37,7 +62,41 @@
   margin-top: 5rem;
 }
 
+@media (min-width: 1200px){
 
+  .stick-here{
+    max-height: 47rem;
+    margin-top: 5rem;
+  }
+  .stick-here a{
+    position: absolute;
+    bottom: 5%;
+    width: 85%;
+    text-align: center;
+  }
+
+}
+
+/** =================== Frozen Single Meals ================= */
+.container .row .package{
+  max-height: 47rem;
+  /* margin: 1rem; */
+  padding: 2rem;
+  margin-bottom: 5rem;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: var(--dark);
+  color: var(--white);
+}
+.container .row .package ul{
+  margin-top: 2rem;
+}
+.container .row .package ul li a{
+  font-size: 1.2rem;
+}
+.container .row .package ul li a:hover{
+  color: var(--red);
+}
 
 /** ================== Gallery Section Starts =============== */
 
@@ -91,3 +150,90 @@
   padding: 7px 10px;
   border-radius: 0 0.5rem 0 0.5rem;
 }
+
+
+
+/** ================= EVENT SECTION ============== */
+.event-container .first-row, .second-row{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.event-container .row{
+  max-width: 50%;
+}
+
+.event-container .row .box{
+  /* border: 2px solid; */
+  max-width: 100%;
+  max-height: 100vh;
+  background: none;
+  text-align: center;
+}
+.event-container .row .box img{
+  width: 100%;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* .event-container .row .box img:hover{
+  transform: scale(0.5);
+  aspect-ratio: 0;
+} */
+
+
+@media (max-width: 768px){
+  .event-container .first-row, .second-row{
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .second-row{
+    position: relative;
+    top: 3rem;
+  }
+  .event-container .row{
+    max-width: 100%;
+  }
+
+}
+@media (max-width: 700px){
+  .event-container .first-row, .second-row{
+    flex-direction: column;
+    gap: 4.7rem;
+  }
+  .event-container .row{
+    max-width: 100%;
+  }
+
+}
+@media (max-width: 668px){
+  .event-container .first-row, .second-row{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .second-row{
+    top: 0.2rem;
+  }
+  .event-container .row{
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 568px){
+  .event-container .first-, .second-row{
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .event-container .row{
+    max-width: 100%;
+  }
+
+}
+
+
+
+
+
+
